@@ -1,0 +1,40 @@
+CASE 02 – PHISHING EMAIL ANALYSIS NOTES
+
+1. Sender Analysis
+The sender address is security@micros0ft-account-alert.test.
+The domain uses "micros0ft" instead of "microsoft", which is a lookalike domain.
+The Reply-To address is verify@account-security-check.test, which does not match the sender domain.
+
+2. Email Authentication
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+
+These authentication failures indicate that the email could not be properly authenticated.
+
+3. Source IP
+Source IP: 203.0.113.77
+
+The IP appears in the Received header as the connecting source.
+
+4. URL Investigation
+Suspicious URL:
+http://account-security-check.test/verify?user=alex
+
+The URL is suspicious because it uses a different domain from Microsoft and asks the user to verify the account.
+
+5. Social Engineering Indicators
+The email creates urgency by saying the account will be restricted within 12 hours.
+It asks the user to verify their identity immediately.
+
+6. Attachment
+Attachment: security_notice.txt
+
+The attachment is a synthetic test attachment used for this investigation.
+
+7. VirusTotal
+The URL was checked using VirusTotal.
+No public reputation/detection result was available for the synthetic .test URL.
+
+8. Final Assessment
+The email is classified as a phishing email because of the lookalike Microsoft domain, mismatched Reply-To address, SPF failure, DKIM absence, DMARC failure, suspicious URL, and urgent account-restriction message.

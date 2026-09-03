@@ -1,0 +1,33 @@
+CASE 01 – INDICATORS OF COMPROMISE (IOCs)
+
+1. Sender Email
+security@micros0ft-account-alert.test
+
+2. Return-Path
+security@micros0ft-account-alert.test
+
+3. Reply-To
+verify@account-security-check.test
+
+4. Source IP
+203.0.113.77
+
+5. Suspicious URL
+http://account-security-check.test/verify?user=alex
+
+6. Attachment
+security_notice.txt
+
+7. Subject
+[Urgent] Your Microsoft account requires verification
+
+8. Suspicious Domain
+micros0ft-account-alert.test
+
+9. Reply-To Domain
+account-security-check.test
+
+10. Authentication Results
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL

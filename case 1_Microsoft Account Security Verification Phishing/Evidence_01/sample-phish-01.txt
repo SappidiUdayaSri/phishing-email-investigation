@@ -1,0 +1,46 @@
+Return-Path: <security@micros0ft-account-alert.test>
+Delivered-To: alex.morgan@corp.lab
+Received: from mail.corp.lab (mail.corp.lab [10.0.10.5])
+	by mx.corp.lab with ESMTP id 7Jk8r3
+	for <alex.morgan@corp.lab>; Thu, 02 May 2024 09:15:22 +0000 (UTC)
+Received: from unknown (HELO micros0ft-account-alert.test) (203.0.113.77)
+	by mail.corp.lab with SMTP; Thu, 02 May 2024 09:15:20 +0000
+Authentication-Results: mx.corp.lab;
+	spf=fail (sender IP is 203.0.113.77) smtp.mailfrom=micros0ft-account-alert.test;s
+	dkim=none;
+	dmarc=fail (p=reject) header.from=micros0ft-account-alert.test
+From: "Microsoft Account Security" <security@micros0ft-account-alert.test>
+Reply-To: <verify@account-security-check.test>
+To: <alex.morgan@corp.lab>
+Subject: [Urgent] Your Microsoft account requires verification
+Date: Thu, 02 May 2024 09:15:19 +0000
+Message-ID: <7a4b9c22-0002@micros0ft-account-alert.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_boundary_7a4b9c22"
+
+--=_boundary_7a4b9c22
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<p>Hello,</p>
+<p>We detected unusual sign-in activity on your Microsoft account.</p>
+<p>Your account will be temporarily restricted unless you verify your
+identity within 12 hours.</p>
+<p><a href="http://account-security-check.test/verify?user=alex">
+Verify your account</a></p>
+<p>If you did not perform this activity, complete the verification
+immediately to prevent account suspension.</p>
+<p>Microsoft Account Security Team</p>
+</body>
+</html>
+
+--=_boundary_7a4b9c22
+Content-Type: text/plain; name="security_notice.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="security_notice.txt"
+
+VGhpcyBpcyBhIHN5bnRoZXRpYyB0ZXN0IGF0dGFjaG1lbnQgZm9yIENhc2UgMDIu
+
+--=_boundary_7a4b9c22--

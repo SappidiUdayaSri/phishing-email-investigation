@@ -1,0 +1,45 @@
+Return-Path: <payroll@payr0ll-verification.test>
+Delivered-To: sam.wilson@corp.lab
+Received: from mail.corp.lab (mail.corp.lab [10.0.10.5])
+	by mx.corp.lab with ESMTP id 9Lm4t6
+	for <sam.wilson@corp.lab>; Fri, 03 May 2024 11:42:18 +0000 (UTC)
+Received: from unknown (HELO payr0ll-verification.test) (192.0.2.55)
+	by mail.corp.lab with SMTP; Fri, 03 May 2024 11:42:16 +0000
+Authentication-Results: mx.corp.lab;
+	spf=fail (sender IP is 192.0.2.55) smtp.mailfrom=payr0ll-verification.test;
+	dkim=none;
+	dmarc=fail (p=reject) header.from=payr0ll-verification.test
+From: "Payroll Department" <payroll@payr0ll-verification.test>
+Reply-To: <update@employee-payroll-check.test>
+To: <sam.wilson@corp.lab>
+Subject: [Action Required] Payroll Information Verification
+Date: Fri, 03 May 2024 11:42:15 +0000
+Message-ID: <9c8d7e33-0003@payr0ll-verification.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_boundary_9c8d7e33"
+
+--=_boundary_9c8d7e33
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<p>Hello Sam,</p>
+<p>Our Payroll Department requires you to verify your employee information.</p>
+<p>Your payroll processing may be delayed if you do not complete the
+verification within 24 hours.</p>
+<p><a href="http://employee-payroll-check.test/update?id=sam">
+Update Payroll Information</a></p>
+<p>Please complete this verification immediately.</p>
+<p>Payroll Department</p>
+</body>
+</html>
+
+--=_boundary_9c8d7e33
+Content-Type: text/plain; name="payroll_form.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="payroll_form.txt"
+
+VGhpcyBpcyBhIHN5bnRoZXRpYyB0ZXN0IGF0dGFjaG1lbnQgZm9yIENhc2UgMDMu
+
+--=_boundary_9c8d7e33--

@@ -1,0 +1,33 @@
+CASE 03 – INDICATORS OF COMPROMISE (IOCs)
+
+1. Sender Email
+payroll@payr0ll-verification.test
+
+2. Return-Path
+payroll@payr0ll-verification.test
+
+3. Reply-To
+update@employee-payroll-check.test
+
+4. Source IP
+192.0.2.55
+
+5. Suspicious URL
+http://employee-payroll-check.test/update?id=sam
+
+6. Attachment
+payroll_form.txt
+
+7. Subject
+[Action Required] Payroll Information Verification
+
+8. Suspicious Domain
+payr0ll-verification.test
+
+9. Reply-To Domain
+employee-payroll-check.test
+
+10. Authentication Results
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
